@@ -7,23 +7,25 @@ import "fmt"
 */
 func main() {
 
+	// 声明字符（类型推断）
 	var a = "initial"
 	fmt.Println(a)
 
-	// var declares 1 or more variables.
+	// 声明多个变量
 	var b, c int = 1, 2
 	fmt.Println(b, c)
 
+	// 类型推断
 	var d = true
 	fmt.Println(d)
 
-	// the zero value for an int is 0.
+	// 整型初始化默认值为 0
 	var e int
 	fmt.Println(e)
 
-	// The := syntax is shorthand for declaring and initializing a variable
+	// 初始化 + 赋值缩写
 	f := "apple"
 	fmt.Println(f)
 
-	
+
 }
