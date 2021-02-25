@@ -10,15 +10,14 @@ import (
 const s string = "constant"
 
 func main() {
-	// 输出常量
 	fmt.Println(s)
 
+	// const 可以出现在任何地方...
 	const n = 500000000
 	const d = 3e20 / n
 
-	// cannot assign to n (declared const) !!!
-	// n = 50001
-	// fmt.Println(n)
+	// 无法改变的常量
+	// n = 50001  // cannot assign to n (declared const) !!! 
 
 	fmt.Println(d)
 	fmt.Println(int64(d))
