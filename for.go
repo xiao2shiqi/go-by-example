@@ -8,6 +8,7 @@ func main() {
 	i := 1
 	// 最简单的条件循环
 	for i <= 3 {
+		fmt.Println(i)
 		i = i + 1
 	}
 	fmt.Println("i result:", i)		// i == 4
