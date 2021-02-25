@@ -7,6 +7,7 @@ func main() {
 
 	i := 1
 	// 最简单的条件循环
+	// 类似 java while 的变种...
 	for i <= 3 {
 		fmt.Println(i)
 		i = i + 1
@@ -14,6 +15,7 @@ func main() {
 	fmt.Println("i result:", i)		// i == 4
 
 	// 初始化条件j的循环
+	// 和 java for 非常相似，但是不用声明类型，然后没有括号...
 	for j := 7; j <= 9; j++ {
 		// j = 7, 8, 9
 		fmt.Println(j)
