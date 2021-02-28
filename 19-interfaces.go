@@ -55,7 +55,7 @@ func main() {
 	r := rect{width: 3, height: 4}
 	c := circle{radius: 5}
 
-	// 他们都可以复用 geometry 接口的 measure 方法
+	// 因为实现了 geometry 接口，所以他们都可以直接复用 measure 函数
 	measure(r)		// 78.53981633974483
 	measure(c)		// 31.41592653589793
 }
